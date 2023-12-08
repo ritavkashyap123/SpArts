@@ -1,0 +1,1 @@
+{"version":3,"file":"json.js","sourceRoot":"","sources":["../../../src/plugins/json.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,gCAAgC,CAAC;AAC5D,OAAO,EAAE,UAAU,EAAE,MAAM,sCAAsC,CAAC","sourcesContent":["export { JsonParser } from \"../.internal/plugins/json/Json\";\nexport { Serializer } from \"../.internal/plugins/json/Serializer\";\n"]}

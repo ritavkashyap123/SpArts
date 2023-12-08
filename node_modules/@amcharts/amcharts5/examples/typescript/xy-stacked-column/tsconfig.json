@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2015",
+    "lib": ["es6"]
+  }
+}

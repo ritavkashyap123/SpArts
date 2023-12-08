@@ -1,0 +1,1 @@
+{"version":3,"file":"IRectangle.js","sourceRoot":"","sources":["../../../../../src/.internal/core/util/IRectangle.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRectangle {\n\tx: number;\n\ty: number;\n\twidth:number;\n\theight:number;\n}\n"]}

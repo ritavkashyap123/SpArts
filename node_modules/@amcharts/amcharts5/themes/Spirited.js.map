@@ -1,0 +1,1 @@
+{"version":3,"file":"Spirited.js","sourceRoot":"","sources":["../../../src/themes/Spirited.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,mCAAmC,CAAC;AAClE,eAAe,aAAa,CAAC","sourcesContent":["import { SpiritedTheme } from \"../.internal/themes/SpiritedTheme\";\nexport default SpiritedTheme;"]}

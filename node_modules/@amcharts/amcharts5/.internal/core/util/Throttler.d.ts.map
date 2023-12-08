@@ -1,0 +1,1 @@
+{"version":3,"file":"Throttler.d.ts","sourceRoot":"","sources":["../../../../../src/.internal/core/util/Throttler.ts"],"names":[],"mappings":"AAAA,qBAAa,SAAS;IACrB,OAAO,CAAC,MAAM,CAAiB;IAC/B,OAAO,CAAC,QAAQ,CAAkB;IAClC,OAAO,CAAC,GAAG,CAAa;gBAEZ,EAAE,EAAE,MAAM,IAAI;IAInB,GAAG,IAAI,IAAI;CAmBlB"}

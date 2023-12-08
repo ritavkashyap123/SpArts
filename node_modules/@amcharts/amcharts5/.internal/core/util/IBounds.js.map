@@ -1,0 +1,1 @@
+{"version":3,"file":"IBounds.js","sourceRoot":"","sources":["../../../../../src/.internal/core/util/IBounds.ts"],"names":[],"mappings":"","sourcesContent":["export interface IBounds {\n\tleft: number;\n\tright: number;\n\ttop: number;\n\tbottom: number;\n}"]}

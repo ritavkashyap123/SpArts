@@ -1,0 +1,1 @@
+{"version":3,"file":"Frozen.js","sourceRoot":"","sources":["../../../src/themes/Frozen.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,iCAAiC,CAAC;AAC9D,eAAe,WAAW,CAAC","sourcesContent":["import { FrozenTheme } from \"../.internal/themes/FrozenTheme\";\nexport default FrozenTheme;"]}

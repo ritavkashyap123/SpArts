@@ -1,0 +1,1 @@
+{"version":3,"file":"IGeoPoint.js","sourceRoot":"","sources":["../../../../../src/.internal/core/util/IGeoPoint.ts"],"names":[],"mappings":"","sourcesContent":["export interface IGeoPoint {\n\tlongitude: number;\n\tlatitude: number;\n}"]}

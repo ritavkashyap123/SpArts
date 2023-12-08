@@ -1,0 +1,40 @@
+{
+  "name": "d3-voronoi-treemap",
+  "version": "1.1.2",
+  "description": "D3 plugin which computes a treemap based on Voronoi tesselation",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "voronoi",
+    "treemap",
+    "diagram",
+    "tesselation"
+  ],
+  "license": "BSD-3-Clause",
+  "author": " Kcnarf <fl.franck.lebeau@gmail.com>",
+  "main": "build/d3-voronoi-treemap.js",
+  "jsnext:main": "index",
+  "homepage": "https://github.com/Kcnarf/d3-voronoi-treemap#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kcnarf/d3-voronoi-treemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kcnarf/d3-voronoi-treemap/issues"
+  },
+  "scripts": {
+    "build": "rm -rf build && mkdir build && rollup -c ./rollup.config.js",
+    "pretest": "yarn run build",
+    "test": "tape 'test/**/*-test.js'",
+    "precommit": "yarn run test && uglifyjs build/d3-voronoi-treemap.js -c -m -o build/d3-voronoi-treemap.min.js",
+    "prepublish": "zip -j build/d3-voronoi-treemap.zip -- LICENSE README.md build/d3-voronoi-treemap.js build/d3-voronoi-treemap.min.js"
+  },
+  "devDependencies": {
+    "rollup": "0.27",
+    "tape": "4",
+    "uglify-js": "~>2.6.0"
+  },
+  "dependencies": {
+    "d3-voronoi-map": "2.*"
+  }
+}

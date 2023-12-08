@@ -1,0 +1,1 @@
+{"version":3,"file":"IPoint.js","sourceRoot":"","sources":["../../../../../src/.internal/core/util/IPoint.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPoint {\n\tx: number;\n\ty: number;\n}\n\nexport interface IOrientationPoint extends IPoint {\n\tangle:number;\n}"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"Material.js","sourceRoot":"","sources":["../../../src/themes/Material.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,mCAAmC,CAAC;AAClE,eAAe,aAAa,CAAC","sourcesContent":["import { MaterialTheme } from \"../.internal/themes/MaterialTheme\";\nexport default MaterialTheme;"]}
