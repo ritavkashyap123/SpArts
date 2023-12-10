@@ -1,4 +1,4 @@
-// The design is responsive. Just reload once if it seems not responsive 
+// The design is responsive. Just reload once if it seems not responsive
 
 .Dashboard {
   height: 90vh;
@@ -208,14 +208,161 @@
       }
     }
   }
+
+  // .third {
+  //   border-radius: 5px;
+  //   background: #fff;
+  //   height: auto;
+  //   border: 1px solid #8888;
+  //   margin-top: 0.5rem;
+  //   margin-bottom: 0.5rem;
+
+  //   .head {
+  //     height: 3rem;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: space-between;
+  //     padding-left: 1rem;
+  //     border-bottom: 1px solid #8888;
+  //     .dots {
+  //       display: flex;
+  //       align-items: center;
+  //       margin-right: 1rem;
+  //       cursor: pointer;
+  //     }
+  //     .btndiv {
+  //       display: flex;
+  //       align-items: center;
+  //       gap: 1rem;
+  //       .btn {
+  //         cursor: pointer;
+  //         padding: 0.2rem 0rem;
+  //         color: black;
+  //         width: 8rem;
+  //         border-radius: 5px;
+  //         background-color: #b7bcc0;
+  //         display: flex;
+  //         align-items: center;
+  //         justify-content: center;
+  //         transition: 0.2s;
+  //         &:hover {
+  //           background-color: #6e7b83;
+  //           color: white;
+  //           transition: 0.2s;
+  //         }
+  //         &:active {
+  //           background-color: #495a62;
+  //           color: white;
+  //           transition: 0.2s;
+  //         }
+  //         &:focus {
+  //           background-color: #495a62;
+  //           color: white;
+  //           transition: 0.2s;
+  //         }
+  //       }
+  //     }
+  //     .icondiv {
+  //       display: none;
+  //     }
+  //     @media screen and (max-width: 1000px) {
+  //       .btndiv {
+  //         display: none;
+  //       }
+  //       .icondiv {
+  //         display: flex;
+  //         align-items: center;
+  //         cursor: pointer;
+  //         &:hover {
+  //           background-color: #d3d3d3;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .body {
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: space-between;
+  //     height: 3rem;
+  //     overflow-x: auto;
+  //     @media screen and (max-width: 1250px) {
+  //       overflow-x: auto;
+  //     }
+  //     input {
+  //       margin-left: 1rem;
+  //     }
+  //     .category {
+  //       flex: 1;
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: center;
+  //       .cbtn {
+  //         width: 30px;
+  //         height: 30px;
+  //         background: #495a62;
+  //         color: white;
+  //         display: flex;
+  //         align-items: center;
+  //         justify-content: center;
+  //         border-radius: 5px;
+  //       }
+  //     }
+  //     .date {
+  //       flex: 3;
+  //     }
+  //     .time {
+  //       flex: 4;
+  //     }
+  //     .name {
+  //       flex: 10;
+  //     }
+  //     .tag {
+  //       flex: 3;
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: center;
+  //       .tagbtn {
+  //         border: 1px dotted red;
+  //         color: red;
+  //         padding: 0.2rem 0.5rem;
+  //       }
+  //     }
+  //     .change {
+  //       flex: 6;
+  //       display: flex;
+  //       justify-content: end;
+  //       color: #6e7b83;
+  //     }
+  //     .btn {
+  //       flex: 2;
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: center;
+  //       button {
+  //         cursor: pointer;
+  //         background: none;
+  //         color: blue;
+  //         border: none;
+  //       }
+  //     }
+  //   }
+  // }
   .third {
-    border-radius: 5px;
     background: #fff;
     height: auto;
     border: 1px solid #8888;
+    border-radius: 5px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    // overflow-y: scroll;
     .head {
+      top: 0;
+      left: 0;
+      position: sticky;
+      transition: all 0.5s;
+      overflow-wrap: normal;
+      background-color: #fff;
+      overflow-x: hidden;
       height: 3rem;
       display: flex;
       align-items: center;
@@ -277,15 +424,14 @@
         }
       }
     }
+
     .body {
       display: flex;
       align-items: center;
       justify-content: space-between;
       height: 3rem;
-      overflow-y: auto;
-      @media screen and (max-width: 1250px) {
-        height: auto;
-      }
+      overflow-x: hidden;
+      min-width: 1400px;
       input {
         margin-left: 1rem;
       }
@@ -343,6 +489,10 @@
           border: none;
         }
       }
+    }
+    @media screen and (max-width: 1400px) {
+      // width: 1070px;
+      overflow-x: auto;
     }
   }
 }
