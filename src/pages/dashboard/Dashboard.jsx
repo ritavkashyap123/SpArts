@@ -154,7 +154,7 @@ const Dashboard = () => {
               </div>
             );
           }
-          return null; // If the category doesn't match, render nothing
+          return null; 
         })}
       </div>
     </div>

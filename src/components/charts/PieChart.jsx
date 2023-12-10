@@ -9,7 +9,6 @@ const { amount } = Data();
 
 const PieChart = () => {
   const data = {
-    // labels: ['Amount Received', 'Amount Pending'],
     labels: amount.map(item => item.label),
     datasets: [
       {
@@ -34,7 +33,7 @@ const PieChart = () => {
     }
   };
   return (
-    <div style={{ width: '100%', maxWidth: '300px', margin: '1rem auto' }}>
+    <div style={{ width: '100%', maxWidth: '300px', height: 'auto', margin: '1rem auto' }}>
       <Doughnut data={data} options={options} />
     </div>
   );
